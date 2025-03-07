@@ -1,0 +1,3 @@
+com.app.tourguide.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

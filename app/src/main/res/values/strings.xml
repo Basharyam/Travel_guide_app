@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="trip_questions">
+        <item>What type of trip are you planning?</item>
+        <item>What type of experience are you looking for on your trip?</item>
+        <item>Which continent would you like to explore?</item>
+        <item>Which season do you prefer to travel?</item>
+        <item>How many days do you want to travel?</item>
+        <item>Which country would you like to explore?</item>
+    </string-array>
+</resources>

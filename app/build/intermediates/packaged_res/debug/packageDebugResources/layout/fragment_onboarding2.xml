@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.Onboarding2Fragment"
+    >
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/cultural"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.902"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/CircleImageView"
+                app:srcCompat="@drawable/cultural"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/nature"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="100dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.902"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cultural"
+                app:shapeAppearanceOverlay="@style/CircleImageView"
+                app:srcCompat="@drawable/nature"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/natculture"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="100dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.902"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/nature"
+                app:shapeAppearanceOverlay="@style/CircleImageView"
+                app:srcCompat="@drawable/natculture"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/natventure"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginBottom="168dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="@+id/natculture"
+                app:layout_constraintEnd_toStartOf="@+id/natculture"
+                app:layout_constraintHorizontal_bias="0.408"
+                app:layout_constraintStart_toStartOf="parent"
+                app:shapeAppearanceOverlay="@style/CircleImageView"
+                app:srcCompat="@drawable/natventure"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/adventure"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginBottom="128dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toTopOf="@+id/natventure"
+                app:layout_constraintEnd_toStartOf="@+id/cultural"
+                app:layout_constraintHorizontal_bias="0.408"
+                app:layout_constraintStart_toStartOf="parent"
+                app:shapeAppearanceOverlay="@style/CircleImageView"
+                app:srcCompat="@drawable/adventure"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</LinearLayout>

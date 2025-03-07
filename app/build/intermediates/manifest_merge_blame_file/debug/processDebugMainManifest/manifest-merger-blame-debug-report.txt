@@ -1,0 +1,158 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.app.tourguide"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Add Internet Permission -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:6:5-67
+12-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:6:22-64
+13
+14    <permission
+14-->[androidx.core:core:1.13.0] /Users/basharyamin/.gradle/caches/8.10.2/transforms/abd2b0cd93d0259ace47718e422013c7/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+15        android:name="com.app.tourguide.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.13.0] /Users/basharyamin/.gradle/caches/8.10.2/transforms/abd2b0cd93d0259ace47718e422013c7/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.13.0] /Users/basharyamin/.gradle/caches/8.10.2/transforms/abd2b0cd93d0259ace47718e422013c7/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.app.tourguide.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.13.0] /Users/basharyamin/.gradle/caches/8.10.2/transforms/abd2b0cd93d0259ace47718e422013c7/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.13.0] /Users/basharyamin/.gradle/caches/8.10.2/transforms/abd2b0cd93d0259ace47718e422013c7/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:8:5-37:19
+21        android:allowBackup="true"
+21-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:9:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.13.0] /Users/basharyamin/.gradle/caches/8.10.2/transforms/abd2b0cd93d0259ace47718e422013c7/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:10:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:11:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:12:9-43
+28        android:label="@string/app_name"
+28-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:13:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:14:9-54
+30        android:supportsRtl="true"
+30-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:15:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.TourGuide"
+32-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:16:9-47
+33        android:usesCleartextTraffic="true" >
+33-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:17:9-44
+34        <activity
+34-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:20:9-22:39
+35            android:name="com.app.tourguide.activity.MainActivity"
+35-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:21:13-50
+36            android:exported="true" /> <!-- Set exported to true if this activity is used outside -->
+36-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:22:13-36
+37
+38        <activity
+38-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:24:9-26:39
+39            android:name="com.app.tourguide.activity.TourGuideActivity"
+39-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:25:13-55
+40            android:exported="true" />
+40-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:26:13-36
+41        <activity
+41-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:28:9-35:20
+42            android:name="com.app.tourguide.activity.GetStartedActivity"
+42-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:29:13-56
+43            android:exported="true" >
+43-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:30:13-36
+44            <intent-filter>
+44-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:31:13-34:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:32:17-69
+45-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:32:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:33:17-77
+47-->/Users/basharyamin/AndroidStudioProjects/tour-guide-old/app/src/main/AndroidManifest.xml:33:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <provider
+51-->[com.squareup.picasso:picasso:2.8] /Users/basharyamin/.gradle/caches/8.10.2/transforms/ec9056794ed811827f3a6aa248913788/transformed/picasso-2.8/AndroidManifest.xml:8:9-11:40
+52            android:name="com.squareup.picasso.PicassoProvider"
+52-->[com.squareup.picasso:picasso:2.8] /Users/basharyamin/.gradle/caches/8.10.2/transforms/ec9056794ed811827f3a6aa248913788/transformed/picasso-2.8/AndroidManifest.xml:9:13-64
+53            android:authorities="com.app.tourguide.com.squareup.picasso"
+53-->[com.squareup.picasso:picasso:2.8] /Users/basharyamin/.gradle/caches/8.10.2/transforms/ec9056794ed811827f3a6aa248913788/transformed/picasso-2.8/AndroidManifest.xml:10:13-72
+54            android:exported="false" />
+54-->[com.squareup.picasso:picasso:2.8] /Users/basharyamin/.gradle/caches/8.10.2/transforms/ec9056794ed811827f3a6aa248913788/transformed/picasso-2.8/AndroidManifest.xml:11:13-37
+55        <provider
+55-->[androidx.emoji2:emoji2:1.2.0] /Users/basharyamin/.gradle/caches/8.10.2/transforms/8c7e3e037f807bdbee76e53148d21f73/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.2.0] /Users/basharyamin/.gradle/caches/8.10.2/transforms/8c7e3e037f807bdbee76e53148d21f73/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+57            android:authorities="com.app.tourguide.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.2.0] /Users/basharyamin/.gradle/caches/8.10.2/transforms/8c7e3e037f807bdbee76e53148d21f73/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.2.0] /Users/basharyamin/.gradle/caches/8.10.2/transforms/8c7e3e037f807bdbee76e53148d21f73/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.2.0] /Users/basharyamin/.gradle/caches/8.10.2/transforms/8c7e3e037f807bdbee76e53148d21f73/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.2.0] /Users/basharyamin/.gradle/caches/8.10.2/transforms/8c7e3e037f807bdbee76e53148d21f73/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.2.0] /Users/basharyamin/.gradle/caches/8.10.2/transforms/8c7e3e037f807bdbee76e53148d21f73/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/basharyamin/.gradle/caches/8.10.2/transforms/270e6a3dd3f62fac509457d99fef5c67/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/basharyamin/.gradle/caches/8.10.2/transforms/270e6a3dd3f62fac509457d99fef5c67/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/basharyamin/.gradle/caches/8.10.2/transforms/270e6a3dd3f62fac509457d99fef5c67/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+65            <meta-data
+65-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/basharyamin/.gradle/caches/8.10.2/transforms/d142ff9c3fe85bf20e244177fe085046/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+66-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/basharyamin/.gradle/caches/8.10.2/transforms/d142ff9c3fe85bf20e244177fe085046/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+67                android:value="androidx.startup" />
+67-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/basharyamin/.gradle/caches/8.10.2/transforms/d142ff9c3fe85bf20e244177fe085046/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+68        </provider>
+69
+70        <receiver
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/basharyamin/.gradle/caches/8.10.2/transforms/d142ff9c3fe85bf20e244177fe085046/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+71            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/basharyamin/.gradle/caches/8.10.2/transforms/d142ff9c3fe85bf20e244177fe085046/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+72            android:directBootAware="false"
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/basharyamin/.gradle/caches/8.10.2/transforms/d142ff9c3fe85bf20e244177fe085046/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+73            android:enabled="true"
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/basharyamin/.gradle/caches/8.10.2/transforms/d142ff9c3fe85bf20e244177fe085046/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+74            android:exported="true"
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/basharyamin/.gradle/caches/8.10.2/transforms/d142ff9c3fe85bf20e244177fe085046/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+75            android:permission="android.permission.DUMP" >
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/basharyamin/.gradle/caches/8.10.2/transforms/d142ff9c3fe85bf20e244177fe085046/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+76            <intent-filter>
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/basharyamin/.gradle/caches/8.10.2/transforms/d142ff9c3fe85bf20e244177fe085046/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+77                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/basharyamin/.gradle/caches/8.10.2/transforms/d142ff9c3fe85bf20e244177fe085046/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/basharyamin/.gradle/caches/8.10.2/transforms/d142ff9c3fe85bf20e244177fe085046/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+78            </intent-filter>
+79            <intent-filter>
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/basharyamin/.gradle/caches/8.10.2/transforms/d142ff9c3fe85bf20e244177fe085046/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+80                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/basharyamin/.gradle/caches/8.10.2/transforms/d142ff9c3fe85bf20e244177fe085046/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/basharyamin/.gradle/caches/8.10.2/transforms/d142ff9c3fe85bf20e244177fe085046/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+81            </intent-filter>
+82            <intent-filter>
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/basharyamin/.gradle/caches/8.10.2/transforms/d142ff9c3fe85bf20e244177fe085046/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+83                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/basharyamin/.gradle/caches/8.10.2/transforms/d142ff9c3fe85bf20e244177fe085046/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/basharyamin/.gradle/caches/8.10.2/transforms/d142ff9c3fe85bf20e244177fe085046/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+84            </intent-filter>
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/basharyamin/.gradle/caches/8.10.2/transforms/d142ff9c3fe85bf20e244177fe085046/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+86                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/basharyamin/.gradle/caches/8.10.2/transforms/d142ff9c3fe85bf20e244177fe085046/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/basharyamin/.gradle/caches/8.10.2/transforms/d142ff9c3fe85bf20e244177fe085046/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+87            </intent-filter>
+88        </receiver>
+89    </application>
+90
+91</manifest>

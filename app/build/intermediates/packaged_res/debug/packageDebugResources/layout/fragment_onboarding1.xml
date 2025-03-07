@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.Onboarding1Fragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+
+        <!-- Circular Image Button 1 -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/family"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:scaleType="centerCrop"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.094"
+            app:shapeAppearanceOverlay="@style/CircleImageView"
+            app:srcCompat="@drawable/family"
+            app:strokeColor="@color/white"
+            app:strokeWidth="2dp"
+            tools:ignore="MissingConstraints" />
+
+        <!-- Circular Image Button 2 -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/youth"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:scaleType="centerCrop"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:layout_constraintTop_toBottomOf="@id/family"
+            app:layout_constraintBottom_toTopOf="@id/romantic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintVertical_bias="0.5"
+            app:layout_constraintHorizontal_bias="0.902"
+            app:shapeAppearanceOverlay="@style/CircleImageView"
+            app:srcCompat="@drawable/youth"
+            app:strokeColor="@color/white"
+            app:strokeWidth="2dp" />
+
+        <!-- Circular Image Button 3 -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/romantic"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:scaleType="centerCrop"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.134"
+            app:layout_constraintTop_toBottomOf="@id/youth"
+            app:shapeAppearanceOverlay="@style/CircleImageView"
+            app:srcCompat="@drawable/romantic"
+            app:strokeColor="@color/white"
+            app:strokeWidth="2dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+com.app.tourguide.test.app-core-1.6.1-0 C:\Users\Administrator\.gradle\caches\8.10.2\transforms\799582812fb41540d1e3b531eaca7172\transformed\core-1.6.1\res
+com.app.tourguide.test.app-androidTest-1 D:\1_Projects\0_tour_schoolproject\git_source\tour-guide\app\build\generated\res\resValues\androidTest\debug
+com.app.tourguide.test.app-mergeDebugAndroidTestResources-2 D:\1_Projects\0_tour_schoolproject\git_source\tour-guide\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.app.tourguide.test.app-mergeDebugAndroidTestResources-3 D:\1_Projects\0_tour_schoolproject\git_source\tour-guide\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.app.tourguide.test.app-debugAndroidTest-4 D:\1_Projects\0_tour_schoolproject\git_source\tour-guide\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

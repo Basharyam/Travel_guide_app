@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.Onboarding3Fragment"
+    >
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/asia"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.902"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/CircleImageView"
+                app:srcCompat="@drawable/asia"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/europe"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="100dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.902"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/asia"
+                app:shapeAppearanceOverlay="@style/CircleImageView"
+                app:srcCompat="@drawable/europe"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/africa"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="100dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.902"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/europe"
+                app:shapeAppearanceOverlay="@style/CircleImageView"
+                app:srcCompat="@drawable/africa"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/southamerica"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginBottom="168dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="@+id/africa"
+                app:layout_constraintEnd_toStartOf="@+id/africa"
+                app:layout_constraintHorizontal_bias="0.408"
+                app:layout_constraintStart_toStartOf="parent"
+                app:shapeAppearanceOverlay="@style/CircleImageView"
+                app:srcCompat="@drawable/south_america"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/northamerica"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginBottom="128dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toTopOf="@+id/southamerica"
+                app:layout_constraintEnd_toStartOf="@+id/asia"
+                app:layout_constraintHorizontal_bias="0.408"
+                app:layout_constraintStart_toStartOf="parent"
+                app:shapeAppearanceOverlay="@style/CircleImageView"
+                app:srcCompat="@drawable/north_america"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</LinearLayout>
